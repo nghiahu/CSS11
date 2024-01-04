@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(232, 226, 226);
+    width: 400px;
+    gap:20px;
+
+}
+.nar1 img{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border-radius:5% ;
+}
+.nar1 p{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    font-size: small;
+    padding: 10px;
+    top:60px;
+    left: 330px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+.nar2 img{
+    border-radius: 50%;
+}
+.nar2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.h3{
+    display: flex;
+    align-items: center ;
+    gap:10px;
+}
+.nar2 p{
+    color: grey;
+}
+.nar2 b{
+    font-size: large;
+}
